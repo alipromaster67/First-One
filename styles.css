@@ -108,23 +108,24 @@ h2 {
   margin-top: 0.5rem;
 }
 
-/* FOOTER */
+
 .footer {
-  padding: 1rem;
+  padding: 1rem 2rem;
   display: flex;
-  position: fixed;
   justify-content: space-between;
+  align-items: center; 
   background-color: green;
   width: 100%;
+  position: fixed;
   bottom: 0;
+  box-sizing: border-box;
 }
 
 .footerlinks {
   display: flex;
-  position: absolute;
-  right: 130px;
-  bottom: 25px;
-  flex-direction: column;
+  gap: 1rem; 
+  flex-direction: row; 
+  position: static; 
 }
 
 /* BACKGROUNDS */
@@ -185,7 +186,7 @@ h2 {
   font-size: 1.4rem;
   font-weight: bold;
   color: darkblue;
-  box-shadow: 0 4px 10px black
+  box-shadow: 0 4px 10px black;
 }
 .logo img {
   width: 120px;      
